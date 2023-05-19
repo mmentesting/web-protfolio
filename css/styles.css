@@ -1,15 +1,35 @@
-
 body {
-  background-color: #E8D2A6;
-  text-align: center;
+  background-color: #BACDDB;
+  color: #40514E;
   font-family: Jura, sans-serif;
   font-size: 1.2rem;
   margin: 0;
+  text-align: center;
+}
+h1 {
+   color: lightgrey;
+}
+h2 {
+   color: grey;
+}
+h3 {
+  color: #86A3B8;
+  font-weight: 900;
+}
+hr {
+  border: none;
+  border-top: 10px dotted #86A3B8;
+  width: 8%;
+  margin: 5% auto;
+}
+a {
+  color: white;
+  margin: 20px;
+  text-decoration: none;
 }
 .header {
   background-color: #86A3B8;
   font-size: 2rem;
-  margin-bottom: 5%;
 }
 .header h1 {
   font-family: "Sedgwick Ave", cursive;
@@ -24,37 +44,25 @@ body {
   margin-top: 0;
 }
 #top_clouds {
-  height: 200px;
-  position: relative;
+  height: 120px;
   left: 30%;
+  position: relative;
+  top: 20px;
 }
 #bottom_clouds {
-  height: 200px;
+  bottom: 20px;
+  height: 180px;
   position: relative;
   right: 30%;
-  bottom: 20px;
 }
-h1 {
-   color: lightgrey;
-}
-h2 {
-   color: grey;
-}
-h3 {
-  color: #86A3B8;
-  font-weight: 900;
-}
+
 .cool_img {
   height: 200px;
   border-radius: 100%;
 }
-hr {
-  border: none;
-  border-top: 10px dotted #86A3B8;
-  width: 10%;
+.middle_section {
   margin: 5% auto;
 }
-
 .middle_section p {
   margin: auto;
   width: 35%;
@@ -85,31 +93,24 @@ hr {
 }
 .btn {
   border: 3px solid #86A3B8;
-  background-color: #E8D2A6;
-  color: #86A3B8;
-  text-decoration: none;
+  background-color: #86A3B8;
+  color: white;
   padding: 10px;
 }
 .btn:hover {
-  background-color: #86A3B8;
-  color: white;
-}
-a {
-  color: white;
-  font-weight: 100;
+  background-color: #BACDDB;
+  color: #86A3B8;
 }
 .footer {
   background-color: #86A3B8;
   color: white;
-  padding-top: 30px;
-  margin-top: 50px;
+  padding: 20px 0;
   line-height: 2;
 }
-.footer a {
-  color: white;
-  margin: 20px;
-}
 .footer a:hover {
-  color: #E8D2A6;
-  margin: 20px;
+  color: #BACDDB;
+}
+.copyright {
+  color: lightgrey;
+  font-size: 1rem;
 }
