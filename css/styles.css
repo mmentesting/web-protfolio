@@ -1,0 +1,115 @@
+
+body {
+  background-color: #E8D2A6;
+  text-align: center;
+  font-family: Jura, sans-serif;
+  font-size: 1.2rem;
+  margin: 0;
+}
+.header {
+  background-color: #86A3B8;
+  font-size: 2rem;
+  margin-bottom: 5%;
+}
+.header h1 {
+  font-family: "Sedgwick Ave", cursive;
+  font-size: 6rem;
+  margin: 0 auto;
+}
+.header h2 {
+  color: lightgrey;
+  font-family: "Cinzel Decorative", cursive;
+  font-size: 2rem;
+  font-weight: 100;
+  margin-top: 0;
+}
+#top_clouds {
+  height: 200px;
+  position: relative;
+  left: 30%;
+}
+#bottom_clouds {
+  height: 200px;
+  position: relative;
+  right: 30%;
+  bottom: 20px;
+}
+h1 {
+   color: lightgrey;
+}
+h2 {
+   color: grey;
+}
+h3 {
+  color: #86A3B8;
+  font-weight: 900;
+}
+.cool_img {
+  height: 200px;
+  border-radius: 100%;
+}
+hr {
+  border: none;
+  border-top: 10px dotted #86A3B8;
+  width: 10%;
+  margin: 5% auto;
+}
+
+.middle_section p {
+  margin: auto;
+  width: 35%;
+}
+
+.skill_img_one {
+  width: 25%;
+  float: left;
+  margin-right: 20px;
+}
+.skill_img_two {
+  width: 25%;
+  float: right;
+  margin-left: 20px;
+}
+.skill_row {
+  width: 50%;
+  margin: 25px auto;
+  display: inline-block;
+  text-align: left;
+}
+.skill_row p {
+  line-height: 2;
+  width: 75%;
+}
+.contact_me p {
+  margin-bottom: 40px;
+}
+.btn {
+  border: 3px solid #86A3B8;
+  background-color: #E8D2A6;
+  color: #86A3B8;
+  text-decoration: none;
+  padding: 10px;
+}
+.btn:hover {
+  background-color: #86A3B8;
+  color: white;
+}
+a {
+  color: white;
+  font-weight: 100;
+}
+.footer {
+  background-color: #86A3B8;
+  color: white;
+  padding-top: 30px;
+  margin-top: 50px;
+  line-height: 2;
+}
+.footer a {
+  color: white;
+  margin: 20px;
+}
+.footer a:hover {
+  color: #E8D2A6;
+  margin: 20px;
+}
